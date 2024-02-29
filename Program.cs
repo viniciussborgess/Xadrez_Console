@@ -44,6 +44,8 @@ namespace Xadrez_Concole
                     }
 
                 }
+                Console.Clear();
+                Tela.imprimirPartida(partida);
 
             }
             catch(TabuleiroException e)
